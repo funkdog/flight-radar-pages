@@ -1,7 +1,11 @@
-# Flight Radar public preview
+# 远行雷达 · 公开静态展示
 
-Stage one is a Chinese mobile connectivity check for GitHub Pages.
+中文、手机优先的假期航线历史快照展示。通过相对路径读取脱敏 JSON；没有业务后端、账号、购票或支付功能。
 
-This fresh repository contains only a static test page. No account data, ticket data, database, source evidence, credentials, original Git history or automatic jobs are included.
+当前仅有2026-10-15人工采集的两组2027五一完整行程：巴黎往返、巴黎进罗马出。价格、核验层级及采集/复核时间均为历史记录，不代表当前可购；国庆尚未覆盖，缺失数据不会用样例补齐。每条仅一个价格观测点，没有历史涨跌结论。
 
-The page does not call an API, collect input or configure reminders. GitHub Pages is public hosting.
+支持假期、路线类型、目的地和预算等本地筛选，自选对比、详情和浏览器本地收藏。收藏不跨设备同步，也不启用提醒。
+
+内容手工更新。每日查询到GitHub自动发布尚未实现。
+
+公开目录仅含展示HTML、CSS、JS、脱敏JSON、README和空`.nojekyll`。不包含数据库、原始证据、截图、个人资料、会话链接、令牌或原项目历史。

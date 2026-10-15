@@ -1,27 +1,5 @@
-<!doctype html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="light">
-<title>远行雷达 · 手机访问测试</title>
-<style>
-*{box-sizing:border-box}body{margin:0;background:#f3f7fc;color:#16273f;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;min-height:100svh;display:grid;place-items:center;padding:24px}main{max-width:620px;background:white;border:1px solid #e0e8f2;border-radius:28px;padding:clamp(28px,6vw,56px);box-shadow:0 20px 70px #2643670a}.brand{color:#326cec;letter-spacing:.12em;font-size:12px;font-weight:700}.icon{margin:28px 0 22px;font-size:40px}h1{font-size:clamp(26px,6vw,38px);line-height:1.3;letter-spacing:-.04em;margin:0 0 18px}p{line-height:1.9;color:#64758c;font-size:15px}.tag{display:inline-block;background:#edf7f2;color:#27845e;padding:7px 12px;border-radius:20px;font-size:12px}button{border:0;border-radius:14px;background:#326cec;color:#fff;font:inherit;font-weight:600;padding:15px 22px;margin:18px 0 10px;cursor:pointer;width:100%}button:focus-visible{outline:3px solid #adcbff;outline-offset:4px}#result{min-height:30px;font-size:14px;color:#27845e}.foot{font-size:11px;border-top:1px solid #e9edf3;padding-top:22px;margin-top:22px;color:#8594a8}
-</style>
-</head>
-<body>
-<main>
-<div class="brand">远行雷达 / PUBLIC PREVIEW</div>
-<div class="icon" aria-hidden="true">↗</div>
-<span class="tag">第一阶段 · 无数据访问测试</span>
-<h1>这一次，先确认<br>手机能顺利抵达。</h1>
-<p>这是 GitHub Pages 公开测试页。此页不含机票报价、个人资料、数据库或登录功能。看到这段文字，说明页面已在当前浏览器正常打开。</p>
-<button id="check" type="button">点一下，验证交互</button>
-<div id="result" role="status" aria-live="polite"></div>
-<p class="foot">版本：pages-check-v1 · 2026-10-15<br>每日查询与自动发布尚未接通。此页不设置提醒，不执行下单，也不发送表单或浏览器数据。</p>
-</main>
-<script>
-document.getElementById('check').addEventListener('click',function(){document.getElementById('result').textContent='交互正常。可以返回对话确认手机已打开。';this.textContent='已完成点击验证';this.disabled=true});
-</script>
-</body>
-</html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f7f9fc"><meta name="description" content="上海出发假期路线的历史人工快照。手工更新、非实时票价。"><title>远行雷达 · 历史人工快照</title><link rel="stylesheet" href="./assets/radar.css"></head><body>
+<aside class="rail"><div class="brand row"><div class="brand-mark" data-icon="plane"></div><div><strong>远行雷达</strong><span>FLIGHT RADAR</span></div></div><div class="rail-label">假 期 灵 感</div><nav class="nav" aria-label="主导航" id="desktop-nav"></nav><div class="rail-bottom"><div class="rail-note"><span class="blue" data-icon="compass"></span><p>手工更新，保留边界</p><small>只展示历史人工快照。<br>收藏仅存此浏览器。</small></div><div class="prototype-version"><span>PUBLIC SNAPSHOTS</span><span>V1.4</span></div></div></aside>
+<div class="workspace"><header class="topbar"><div class="row top-left"><span data-icon="pin"></span><b>上海出发</b><span class="divider"></span><span>把有限假期，变成无限可能</span></div><div class="mobile-brand"><span class="brand-mark" data-icon="plane"></span>远行雷达</div><div class="row top-right"><span class="demo-top">历史快照 · 非实时</span></div></header><main class="main" id="main"></main></div>
+<nav class="tabbar" aria-label="手机主导航" id="mobile-nav"></nav><div id="dock-root"></div><div id="overlay-root"></div><div id="toast-root" role="status" aria-live="polite"></div>
+<script type="module" src="./assets/app.js"></script></body></html>
