@@ -1,0 +1,2738 @@
+{
+  "schema_version": 2,
+  "update_mode": "manual_only",
+  "automation_connected": false,
+  "active_batch_id": "manual-2026-10-16",
+  "sources": [
+    {
+      "id": "trip",
+      "name": "Trip.com",
+      "entry_url": "https://www.trip.com/",
+      "entry_status": "homepage_reproduction_not_retested",
+      "mode": "manual_browser_report"
+    },
+    {
+      "id": "fliggy",
+      "name": "飞猪",
+      "entry_url": "https://www.fliggy.com/",
+      "entry_status": "reported_public_homepage",
+      "mode": "manual_browser_report"
+    },
+    {
+      "id": "ly",
+      "name": "同程",
+      "entry_url": "https://www.ly.com/",
+      "entry_status": "homepage_reproduction_not_retested",
+      "mode": "manual_browser_report"
+    },
+    {
+      "id": "ctrip",
+      "name": "携程",
+      "entry_url": "https://www.ctrip.com/",
+      "entry_status": "homepage_reproduction_not_retested",
+      "mode": "manual_browser_report"
+    },
+    {
+      "id": "qunar",
+      "name": "去哪儿",
+      "entry_url": "https://www.qunar.com/",
+      "entry_status": "homepage_reproduction_not_retested",
+      "mode": "manual_browser_report"
+    },
+    {
+      "id": "google",
+      "name": "Google Flights",
+      "entry_url": "https://www.google.com/travel/flights/",
+      "entry_status": "historical_public_entry",
+      "mode": "manual_browser_report"
+    }
+  ],
+  "batches": [
+    {
+      "id": "manual-2026-10-15",
+      "label": "10月15日历史归档",
+      "status": "succeeded",
+      "checked_window": {
+        "start": "2026-10-15T06:25Z",
+        "end": "2026-10-15T06:43Z",
+        "precision": "minute_range"
+      },
+      "scope": {
+        "note": "两条已验收五一欧洲历史快照，单点记录，不是今天核验"
+      },
+      "quote_ids": [
+        "q_e1ff7f337b398ead7f16",
+        "q_7d179ceb018b9d5f64f7"
+      ],
+      "run_ids": [
+        "r_54f80e556f2e54081f87",
+        "r_02ba1559d4c2022974fe"
+      ],
+      "input_sha256": "dc28cd7fb7785b49a2bf2e8bdf29c9221f1be1767a93b3b452140df0a4af28f7",
+      "qualified_quotes": 2,
+      "total_quotes": 2
+    },
+    {
+      "id": "manual-2026-10-16",
+      "label": "10月16日人工核验批次",
+      "status": "succeeded",
+      "checked_window": {
+        "start": "2026-10-16T00:47Z",
+        "end": "2026-10-16T04:57Z",
+        "precision": "minute_range"
+      },
+      "scope": {
+        "reported_cities": 8,
+        "trip_roundtrip_searches": 11,
+        "trip_openjaw_searches": 1,
+        "trip_passenger_quotes": 10,
+        "note": "Trip.com 9条主清单加1条紧凑开口备选；另补飞猪、同程同航段核验，携程/去哪儿仅卡价。五一欧洲本批未查。"
+      },
+      "quote_ids": [
+        "q_ae01b2397ed6b5bc3b31",
+        "q_02d2c23fc101e8201ae0",
+        "q_6bf37fcb47f1a9a21faa",
+        "q_1a338aa2a26b1c7ac7f6",
+        "q_3e92eba04ab09611cd23",
+        "q_711b267384ff159b302c",
+        "q_c7601521d5c8e4848686",
+        "q_9663ab62dacf23a2d104",
+        "q_96cc8251c7740304f372",
+        "q_0e14576d875d3a1ea79f",
+        "q_f7157957001a35465740",
+        "q_9df09674c4990cfeb5a7",
+        "q_8f9bdc5d8b81024a4273",
+        "q_e07b270cdb097d0dd0ad"
+      ],
+      "run_ids": [
+        "r_6471b1680b845a4636ba",
+        "r_1cd19b8d806686084b7b",
+        "r_407df6bbfe001eb5fac7",
+        "r_05f14ca6aeeab188bbc5",
+        "r_b7e8f9230717d34947b7",
+        "r_20ea907c4af2f29120d7",
+        "r_fc0e747698d570fc5196",
+        "r_557ada978f05f1eec78e",
+        "r_c3b150e31c0023f60b3b",
+        "r_e7f9a683f9c587145b0a",
+        "r_50477a60ed29968e3905",
+        "r_50debb9ecf61ce47d58b",
+        "r_f7c20c60f2b34e0dffe0",
+        "r_f2bd68815bdfc80bd738",
+        "r_79780e9b30c0284fc21e",
+        "r_dea595c2a3f3538e2e9d"
+      ],
+      "input_sha256": "1ba0d65122794ef3e4cbea79002cbc7ab2029d5220097cd38031795effecca68",
+      "qualified_quotes": 12,
+      "total_quotes": 14
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q_e1ff7f337b398ead7f16",
+      "condition_fingerprint": "e1ff7f337b398ead7f16dd63e3b0ebb9c11a2b2a13a7bbb9e05a4368456d5556",
+      "source_id": "google",
+      "seller": {
+        "name": "Expedia",
+        "original_amount_minor": 94480,
+        "original_currency": "USD"
+      },
+      "holiday": "may",
+      "entry_city": "paris",
+      "exit_city": "paris",
+      "route_type": "roundtrip",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-05",
+      "arrival_shanghai": "2027-05-06T05:20:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "itinerary_review",
+      "eligible": true,
+      "segment_ids": [
+        "s_4d68cce33d08ada73d86",
+        "s_46087754d48dd919fdd1",
+        "s_293f1de24b6fd529b4f8",
+        "s_ff40bb1da313c501373e"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 890,
+          "stops": 1,
+          "via": [
+            "历史中转"
+          ],
+          "layover_minutes": null
+        },
+        {
+          "duration_minutes": 805,
+          "stops": 1,
+          "via": [
+            "历史中转"
+          ],
+          "layover_minutes": null
+        }
+      ],
+      "baggage": {
+        "checked_text": "Carry-on bag included (11 lbs); 1st checked bag included (50 lbs)",
+        "hand_text": null,
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "Non-refundable; page separately states no fee to cancel within 24 hours of booking; exact applicability unverified",
+        "change_text": "Changes not allowed",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 4.0,
+        "effective_max": 4.0,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": 0.0,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "人工浏览器实际查询后结构化导入，自动查价尚未接通",
+        "仅聚合平台完整报价与卖家选项，未进入卖家结算页",
+        "出票保护范围、票号、精确退改费及实际结算币种待核验",
+        "2027 五一放假及调休未正式核验；请假按假设日历估算",
+        "卖方完整行程页复核，未进入 Next: Checkout，不等于结算或出票核验",
+        "Google显示CNY6323、美元整数参考945；Expedia原币944.80另存，未自行换汇或合并金额",
+        "行李保留卖方11lbs/50lbs原单位；没有擅自按其他航司通用规则填充",
+        "精确退改和24小时取消条件仍须结算前核验",
+        "10月15日旧批次归档，不混作10月16日报价"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_7d179ceb018b9d5f64f7",
+      "condition_fingerprint": "7d179ceb018b9d5f64f705704a7f4a6933ac6fe5d28eeec6133693aa4e4d720f",
+      "source_id": "google",
+      "seller": {
+        "name": "SWISS",
+        "original_amount_minor": 659900,
+        "original_currency": "CNY"
+      },
+      "holiday": "may",
+      "entry_city": "paris",
+      "exit_city": "rome",
+      "route_type": "openjaw",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-05",
+      "arrival_shanghai": "2027-05-06T06:30:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "airline_fare_rules",
+      "eligible": true,
+      "segment_ids": [
+        "s_79ca526862b8553e336d",
+        "s_9d400bd418e99d7a5f82",
+        "s_f2bf1e86783027f19c60",
+        "s_bc68039c6106e0e91947"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 980,
+          "stops": 1,
+          "via": [
+            "历史中转"
+          ],
+          "layover_minutes": null
+        },
+        {
+          "duration_minutes": 895,
+          "stops": 1,
+          "via": [
+            "历史中转"
+          ],
+          "layover_minutes": null
+        }
+      ],
+      "baggage": {
+        "checked_text": "Both flights: 1 personal item max. 40 x 30 x 15cm; carry-on 1 x 8kg max. 55 x 40 x 23cm; checked baggage 1 x 23kg",
+        "hand_text": null,
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "Economy Comfort: Refundability Not allowed",
+        "change_text": "Both flights: Rebooking Max CNY 1,300 plus possible fare difference",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 3.5,
+        "effective_max": 3.5,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": 10.0,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "人工浏览器实际查询后结构化导入，自动查价尚未接通",
+        "仅聚合平台完整报价与卖家选项，未进入卖家结算页",
+        "出票保护范围、票号、精确退改费及实际结算币种待核验",
+        "2027 五一放假及调休未正式核验；请假按假设日历估算",
+        "巴黎—罗马城际段未查询，机票价不含该段；10小时仅为移动与衔接规划缓冲",
+        "来源提示 LX1727 Often delayed by 30+ min；不是本系统预测",
+        "Airline selected Economy Comfort fare reviewed, not final checkout or inventory guarantee",
+        "CNY6599 is the complete multicity total for 1 Adult including taxes, fees and surcharges, excluding ground transport",
+        "No passenger details or payment entered; payment method may incur additional charges",
+        "Complete quote does not establish issued ticket numbers or connection protection",
+        "10月15日旧批次归档，不混作10月16日报价"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_ae01b2397ed6b5bc3b31",
+      "condition_fingerprint": "ae01b2397ed6b5bc3b312f86a8aec03aac83ade929f457212ed1360afffb96e4",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "route_type": "roundtrip",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "arrival_shanghai": "2027-10-07T06:30:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_2b4525fcc225f2accbda",
+        "s_4936c9ccf09e06febdb4",
+        "s_be98b861c185db46e89f",
+        "s_2804f29a1f0307e5c7ba"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 1015,
+          "stops": 1,
+          "via": [
+            "ZRH"
+          ],
+          "layover_minutes": [
+            110
+          ]
+        },
+        {
+          "duration_minutes": 895,
+          "stops": 1,
+          "via": [
+            "ZRH"
+          ],
+          "layover_minutes": [
+            100
+          ]
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运23kg；件数未记录",
+        "hand_text": "手提8kg；件数未记录",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "票款不退；部分税费可退，金额未记录",
+        "change_text": "改签费1300元起，另补票差；具体时限未记录",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 6,
+        "effective_max": 6,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_02d2c23fc101e8201ae0",
+      "condition_fingerprint": "02d2c23fc101e8201ae0a5b533af180896f4202a57a84325dbc837a6e1915843",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "madrid",
+      "exit_city": "madrid",
+      "route_type": "roundtrip",
+      "out_date": "2027-10-02",
+      "return_date": "2027-10-08",
+      "arrival_shanghai": "2027-10-09T09:15:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_86813fb26b1cea8d7712",
+        "s_e16805f70f0eb5bb1f89",
+        "s_0d38c511615f367e1d87",
+        "s_b92b993f8db726ef9790"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 990,
+          "stops": 1,
+          "via": [
+            "PEK"
+          ],
+          "layover_minutes": [
+            125
+          ]
+        },
+        {
+          "duration_minutes": 1130,
+          "stops": 1,
+          "via": [
+            "FRA"
+          ],
+          "layover_minutes": [
+            280
+          ]
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运23kg；件数未记录",
+        "hand_text": "去程手提5kg / 回程8kg",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "票款不退；部分税可退，金额未记录",
+        "change_text": "改签费1300元起，另补票差",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 4.5,
+        "effective_max": 4.5,
+        "leave_min": 1,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_6bf37fcb47f1a9a21faa",
+      "condition_fingerprint": "6bf37fcb47f1a9a21faae4a26fbf796bc21f680bfa6f2ad38c9eb7b790cad05b",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "barcelona",
+      "exit_city": "barcelona",
+      "route_type": "roundtrip",
+      "out_date": "2027-10-02",
+      "return_date": "2027-10-08",
+      "arrival_shanghai": "2027-10-09T06:45:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_1cf69d753dbc26b0967f",
+        "s_cf49f48dff620d92b75a"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 795,
+          "stops": 0,
+          "via": [],
+          "layover_minutes": []
+        },
+        {
+          "duration_minutes": 755,
+          "stops": 0,
+          "via": [],
+          "layover_minutes": []
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运23kg；件数未记录",
+        "hand_text": "手提5kg；件数未记录",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "部分税可退；票款退票条件未完整记录",
+        "change_text": "改签费3560元起，另补票差",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 5.5,
+        "effective_max": 5.5,
+        "leave_min": 1,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_1a338aa2a26b1c7ac7f6",
+      "condition_fingerprint": "1a338aa2a26b1c7ac7f6990e162ab6520e8e3c2e220d6def502ae1f6bcd0c33d",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "paris",
+      "exit_city": "paris",
+      "route_type": "roundtrip",
+      "out_date": "2027-09-30",
+      "return_date": "2027-10-07",
+      "arrival_shanghai": "2027-10-08T14:25:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_087d7b508ec6f52afe6c",
+        "s_b0ff8d7e3c8c127b95d4",
+        "s_36e54f5207297f5853b4",
+        "s_34dda0e986ee3e2cd8be"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 1295,
+          "stops": 1,
+          "via": [
+            "SGN"
+          ],
+          "layover_minutes": [
+            260
+          ]
+        },
+        {
+          "duration_minutes": 1105,
+          "stops": 1,
+          "via": [
+            "HAN"
+          ],
+          "layover_minutes": [
+            210
+          ]
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运23kg；件数未记录",
+        "hand_text": "手提与随身合计10kg",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "部分航段不可退；其他退税条件未完整记录",
+        "change_text": "改签费2290元起，另补票差",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 5.5,
+        "effective_max": 5.5,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_3e92eba04ab09611cd23",
+      "condition_fingerprint": "3e92eba04ab09611cd23ee580ab3205ba3bd34d1fc6f3a00bf3c74709db052a5",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "paris",
+      "exit_city": "paris",
+      "route_type": "roundtrip",
+      "out_date": "2027-10-01",
+      "return_date": "2027-10-07",
+      "arrival_shanghai": "2027-10-08T14:25:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_8825b500ab242f4d4406",
+        "s_9574d95961d33afb275f",
+        "s_dea5f6e4e3efab574be7",
+        "s_7a53cc466e3b952b6373"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 1270,
+          "stops": 1,
+          "via": [
+            "HAN"
+          ],
+          "layover_minutes": [
+            295
+          ]
+        },
+        {
+          "duration_minutes": 1105,
+          "stops": 1,
+          "via": [
+            "HAN"
+          ],
+          "layover_minutes": [
+            210
+          ]
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运23kg；件数未记录",
+        "hand_text": "手提与随身合计10kg",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "部分航段不可退；其他退税条件未完整记录",
+        "change_text": "改签费2290元起，另补票差",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 4.5,
+        "effective_max": 4.5,
+        "leave_min": 1,
+        "leave_max": 1,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_711b267384ff159b302c",
+      "condition_fingerprint": "711b267384ff159b302cff11abf31b2519dd8532f4eb90ca577b3e8a8b91a5ec",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "may",
+      "entry_city": "tokyo",
+      "exit_city": "tokyo",
+      "route_type": "roundtrip",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-05",
+      "arrival_shanghai": "2027-05-05T19:45:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_7a3ec2de692b309aea38",
+        "s_733bab06dfee97add464"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 175,
+          "stops": 0,
+          "via": [],
+          "layover_minutes": []
+        },
+        {
+          "duration_minutes": 205,
+          "stops": 0,
+          "via": [],
+          "layover_minutes": []
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运2×23kg",
+        "hand_text": "手提与随身合计10kg",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "票款不退；其他退税条件未记录",
+        "change_text": "改签费2180元起，另补票差",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 4.5,
+        "effective_max": 4.5,
+        "leave_min": 1,
+        "leave_max": 1,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_c7601521d5c8e4848686",
+      "condition_fingerprint": "c7601521d5c8e484868606d56b7fcae7684373329396409b6eba5f3edfcedf2c",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "may",
+      "entry_city": "tokyo",
+      "exit_city": "tokyo",
+      "route_type": "roundtrip",
+      "out_date": "2027-05-01",
+      "return_date": "2027-05-05",
+      "arrival_shanghai": "2027-05-05T19:45:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_5265c18fe58cf37cb52e",
+        "s_670df9d1a23b0eb93ac7"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 175,
+          "stops": 0,
+          "via": [],
+          "layover_minutes": []
+        },
+        {
+          "duration_minutes": 205,
+          "stops": 0,
+          "via": [],
+          "layover_minutes": []
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运2×23kg",
+        "hand_text": "手提与随身合计10kg",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "票款不退；其他退税条件未记录",
+        "change_text": "改签费2180元起，另补票差",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 4,
+        "effective_max": 4,
+        "leave_min": 0,
+        "leave_max": 0,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_9663ab62dacf23a2d104",
+      "condition_fingerprint": "9663ab62dacf23a2d1048744ea2ffaf7b2d8ed66c7bf802952f870169e78e744",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "may",
+      "entry_city": "istanbul",
+      "exit_city": "istanbul",
+      "route_type": "roundtrip",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-06",
+      "arrival_shanghai": "2027-05-06T16:45:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_0bcbfeaa656ce3b1b347",
+        "s_c69392040da85a37bde1"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 720,
+          "stops": 0,
+          "via": [],
+          "layover_minutes": []
+        },
+        {
+          "duration_minutes": 615,
+          "stops": 0,
+          "via": [],
+          "layover_minutes": []
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运23kg；件数未记录",
+        "hand_text": "手提8kg",
+        "personal_text": "随身物品4kg"
+      },
+      "fare_rules": {
+        "refund_text": "不可退",
+        "change_text": "不可改",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 5,
+        "effective_max": 5,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_96cc8251c7740304f372",
+      "condition_fingerprint": "96cc8251c7740304f372dc55351ae3a3300ad52871afb740c2a74916444483d3",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "may",
+      "entry_city": "sydney",
+      "exit_city": "sydney",
+      "route_type": "roundtrip",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-06",
+      "arrival_shanghai": "2027-05-06T22:20:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_45c1140b2b72b5a5a417",
+        "s_31c3bbfb75aaaae564d3",
+        "s_d0d07dad598bf46e618f",
+        "s_c8375c9b4473cb56745c"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 865,
+          "stops": 1,
+          "via": [
+            "CAN"
+          ],
+          "layover_minutes": [
+            145
+          ]
+        },
+        {
+          "duration_minutes": 855,
+          "stops": 1,
+          "via": [
+            "CAN"
+          ],
+          "layover_minutes": [
+            110
+          ]
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运23kg；件数未记录",
+        "hand_text": "手提8kg；件数未记录",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "不可退",
+        "change_text": "不可改",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 4,
+        "effective_max": 4.5,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。 长途与返沪恢复偏紧。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_0e14576d875d3a1ea79f",
+      "condition_fingerprint": "0e14576d875d3a1ea79f84413870de382b488844fcc3e74d9d6247182af85227",
+      "source_id": "trip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "milan",
+      "route_type": "openjaw",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "arrival_shanghai": "2027-10-07T15:50:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_f85dcab0ba0bdaab4e76",
+        "s_d02549e4ac2ea416ea1b",
+        "s_d5751a9f9358c251a404",
+        "s_23a298e2b6d0787ed2a7"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 1015,
+          "stops": 1,
+          "via": [
+            "ZRH"
+          ],
+          "layover_minutes": [
+            110
+          ]
+        },
+        {
+          "duration_minutes": 925,
+          "stops": 1,
+          "via": [
+            "MUC"
+          ],
+          "layover_minutes": [
+            170
+          ]
+        }
+      ],
+      "baggage": {
+        "checked_text": "托运23kg；件数未记录",
+        "hand_text": "手提8kg；件数未记录",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": "部分税可退；票款条件未完整记录",
+        "change_text": "改签费3290元起，另补票差",
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": 6,
+        "effective_max": 6,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。两城较紧凑；另扣约半天城际，费用及班次未知。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空"
+      ],
+      "recommendation": "compact_backup"
+    },
+    {
+      "id": "q_f7157957001a35465740",
+      "condition_fingerprint": "f7157957001a354657407e4fe262b16bd3251535c7ffaf48afea84f9e2c918e6",
+      "source_id": "fliggy",
+      "seller": {
+        "name": "阿斯兰航服国际",
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "route_type": "roundtrip",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "arrival_shanghai": "2027-10-07T06:30:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_fare",
+      "eligible": true,
+      "segment_ids": [
+        "s_1d023029b263fff73983",
+        "s_51bf1a98fd3c4db8a748",
+        "s_8855a72fcc177ec64953",
+        "s_73a4d88b30a7ba76e00c"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 1015,
+          "stops": 1,
+          "via": [
+            "ZRH"
+          ],
+          "layover_minutes": [
+            110
+          ]
+        },
+        {
+          "duration_minutes": 895,
+          "stops": 1,
+          "via": [
+            "ZRH"
+          ],
+          "layover_minutes": [
+            100
+          ]
+        }
+      ],
+      "baggage": {
+        "checked_text": "去返均托运1×23kg，三边和≤158cm",
+        "hand_text": "去返均手提1×8kg，55×40×23cm",
+        "personal_text": "个人物品1件；飞猪40×30×10cm，同程尺寸未记录"
+      },
+      "fare_rules": {
+        "refund_text": "未使用票款不退，可退税560元；已用去程后退返程可退税357元",
+        "change_text": "起飞前超过1天改期1300元/成人+票差；1天内不可改",
+        "unused_tax_minor": 56000,
+        "return_tax_minor": 35700,
+        "return_tax_allowed": true,
+        "change_fee_from_minor": 130000,
+        "change_fee_kind": "fixed_plus_fare_difference"
+      },
+      "planning": {
+        "effective_min": 6,
+        "effective_max": 6,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空",
+        "未选乘机人时订单金额为 --；6460元仅为完整往返含税成人票价，不是已核最终应付"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_9df09674c4990cfeb5a7",
+      "condition_fingerprint": "9df09674c4990cfeb5a7e0204c25598acbd3d7fc5ee04f61ee2b56a68fb60ccb",
+      "source_id": "ly",
+      "seller": {
+        "name": "瑞士航空官方授权店",
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "route_type": "roundtrip",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "arrival_shanghai": "2027-10-07T06:30:00",
+      "adults": 1,
+      "cabin": "economy",
+      "taxes_included": true,
+      "verification_stage": "passenger_total",
+      "eligible": true,
+      "segment_ids": [
+        "s_a73700cdda192c4bf1a3",
+        "s_57472147acd052331ecf",
+        "s_93b63c847931ff5ec456",
+        "s_842e582e54e4e171f7f0"
+      ],
+      "legs": [
+        {
+          "duration_minutes": 1015,
+          "stops": 1,
+          "via": [
+            "ZRH"
+          ],
+          "layover_minutes": [
+            110
+          ]
+        },
+        {
+          "duration_minutes": 895,
+          "stops": 1,
+          "via": [
+            "ZRH"
+          ],
+          "layover_minutes": [
+            100
+          ]
+        }
+      ],
+      "baggage": {
+        "checked_text": "去返均托运1×23kg，三边和≤158cm",
+        "hand_text": "去返均手提1×8kg，55×40×23cm",
+        "personal_text": "个人物品1件；飞猪40×30×10cm，同程尺寸未记录"
+      },
+      "fare_rules": {
+        "refund_text": "未使用票款不退，可退税560元；已用去程后返程不得退税",
+        "change_text": "起飞前超过1天改期1300元/成人+票差；1天内不可改",
+        "unused_tax_minor": 56000,
+        "return_tax_minor": null,
+        "return_tax_allowed": false,
+        "change_fee_from_minor": 130000,
+        "change_fee_kind": "fixed_plus_fare_difference"
+      },
+      "planning": {
+        "effective_min": 6,
+        "effective_max": 6,
+        "leave_min": 2,
+        "leave_max": 2,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空",
+        "旅客页显示总额6590元；未填写旅客信息或提交订单，最终应付仍未核"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_8f9bdc5d8b81024a4273",
+      "condition_fingerprint": "8f9bdc5d8b81024a42732613db8c6a8aa3faa88a6a5c35a775a1b51d52fdc430",
+      "source_id": "ctrip",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "route_type": "roundtrip",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "arrival_shanghai": null,
+      "adults": 1,
+      "cabin": null,
+      "taxes_included": null,
+      "verification_stage": "search_card",
+      "eligible": false,
+      "segment_ids": [
+        "s_3cc64613604c76761d80",
+        "s_a9973d568efeae9cdc57"
+      ],
+      "legs": [
+        {
+          "duration_minutes": null,
+          "stops": null,
+          "via": [],
+          "layover_minutes": null
+        },
+        {
+          "duration_minutes": null,
+          "stops": null,
+          "via": [],
+          "layover_minutes": null
+        }
+      ],
+      "baggage": {
+        "checked_text": "卡片列23kg；件数待核",
+        "hand_text": "卡片列8kg；件数待核",
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": null,
+        "change_text": null,
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": null,
+        "effective_max": null,
+        "leave_min": null,
+        "leave_max": null,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空",
+        "仅报价卡；返程LX3433由AZ572执飞/LX188，与主清单返程不同；未登录"
+      ],
+      "recommendation": "candidate"
+    },
+    {
+      "id": "q_e07b270cdb097d0dd0ad",
+      "condition_fingerprint": "e07b270cdb097d0dd0ad2f78d75ff93e75cd4269e1b706f09fbba07e15e94c15",
+      "source_id": "qunar",
+      "seller": {
+        "name": null,
+        "original_amount_minor": null,
+        "original_currency": null
+      },
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "route_type": "roundtrip",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "arrival_shanghai": null,
+      "adults": 1,
+      "cabin": null,
+      "taxes_included": null,
+      "verification_stage": "search_card",
+      "eligible": false,
+      "segment_ids": [],
+      "legs": [
+        {
+          "duration_minutes": null,
+          "stops": null,
+          "via": [],
+          "layover_minutes": null
+        },
+        {
+          "duration_minutes": null,
+          "stops": null,
+          "via": [],
+          "layover_minutes": null
+        }
+      ],
+      "baggage": {
+        "checked_text": null,
+        "hand_text": null,
+        "personal_text": null
+      },
+      "fare_rules": {
+        "refund_text": null,
+        "change_text": null,
+        "unused_tax_minor": null,
+        "return_tax_minor": null,
+        "return_tax_allowed": null,
+        "change_fee_from_minor": null,
+        "change_fee_kind": null
+      },
+      "planning": {
+        "effective_min": null,
+        "effective_max": null,
+        "leave_min": null,
+        "leave_max": null,
+        "leave_basis": "2027官方放假调休未确认；五一暂按5/1–5/5，国庆按实际抵沪估计，10/9调休未知",
+        "ground_hours": null,
+        "ground_amount_minor": null,
+        "note": "有效游玩为报告规划估算，含基础机场与休息缓冲；不是客观精确游玩时长。"
+      },
+      "limits": [
+        "历史人工核验，不是实时票价或库存保证",
+        "未填写旅客资料、提交订单或付款；最终应付未核",
+        "未记录的中间航段时间、卖方、费用等保留为空",
+        "经济舱未明确且登录受限，不推荐；准确核验分钟未记录",
+        "仅记录核验日期，精确时刻未提供"
+      ],
+      "recommendation": "candidate"
+    }
+  ],
+  "segments": [
+    {
+      "id": "s_4d68cce33d08ada73d86",
+      "quote_id": "q_e1ff7f337b398ead7f16",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "HO1607",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "HEL",
+      "departure_local": "2027-04-30T09:25:00",
+      "arrival_local": "2027-04-30T14:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Helsinki",
+      "duration_minutes": 575
+    },
+    {
+      "id": "s_46087754d48dd919fdd1",
+      "quote_id": "q_e1ff7f337b398ead7f16",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "AY1577",
+      "operating_note": null,
+      "origin_airport": "HEL",
+      "destination_airport": "CDG",
+      "departure_local": "2027-04-30T16:10:00",
+      "arrival_local": "2027-04-30T18:15:00",
+      "departure_timezone": "Europe/Helsinki",
+      "arrival_timezone": "Europe/Paris",
+      "duration_minutes": 185
+    },
+    {
+      "id": "s_293f1de24b6fd529b4f8",
+      "quote_id": "q_e1ff7f337b398ead7f16",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "SN3634",
+      "operating_note": null,
+      "origin_airport": "CDG",
+      "destination_airport": "BRU",
+      "departure_local": "2027-05-05T09:55:00",
+      "arrival_local": "2027-05-05T10:55:00",
+      "departure_timezone": "Europe/Paris",
+      "arrival_timezone": "Europe/Brussels",
+      "duration_minutes": 60
+    },
+    {
+      "id": "s_ff40bb1da313c501373e",
+      "quote_id": "q_e1ff7f337b398ead7f16",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "HO1660",
+      "operating_note": null,
+      "origin_airport": "BRU",
+      "destination_airport": "PVG",
+      "departure_local": "2027-05-05T12:40:00",
+      "arrival_local": "2027-05-06T05:20:00",
+      "departure_timezone": "Europe/Brussels",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 640
+    },
+    {
+      "id": "s_79ca526862b8553e336d",
+      "quote_id": "q_7d179ceb018b9d5f64f7",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "LX189",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-04-30T08:30:00",
+      "arrival_local": "2027-04-30T16:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 810
+    },
+    {
+      "id": "s_9d400bd418e99d7a5f82",
+      "quote_id": "q_7d179ceb018b9d5f64f7",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "LX644",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "CDG",
+      "departure_local": "2027-04-30T17:30:00",
+      "arrival_local": "2027-04-30T18:50:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Europe/Paris",
+      "duration_minutes": 80
+    },
+    {
+      "id": "s_f2bf1e86783027f19c60",
+      "quote_id": "q_7d179ceb018b9d5f64f7",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "LX1727",
+      "operating_note": null,
+      "origin_airport": "FCO",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-05-05T09:35:00",
+      "arrival_local": "2027-05-05T11:15:00",
+      "departure_timezone": "Europe/Rome",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 100
+    },
+    {
+      "id": "s_bc68039c6106e0e91947",
+      "quote_id": "q_7d179ceb018b9d5f64f7",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "LX188",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "PVG",
+      "departure_local": "2027-05-05T12:55:00",
+      "arrival_local": "2027-05-06T06:30:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 695
+    },
+    {
+      "id": "s_2b4525fcc225f2accbda",
+      "quote_id": "q_ae01b2397ed6b5bc3b31",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "LX189",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-09-29T08:30:00",
+      "arrival_local": "2027-09-29T16:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 810
+    },
+    {
+      "id": "s_4936c9ccf09e06febdb4",
+      "quote_id": "q_ae01b2397ed6b5bc3b31",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "LX1732",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "FCO",
+      "departure_local": "2027-09-29T17:50:00",
+      "arrival_local": "2027-09-29T19:25:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Europe/Rome",
+      "duration_minutes": 95
+    },
+    {
+      "id": "s_be98b861c185db46e89f",
+      "quote_id": "q_ae01b2397ed6b5bc3b31",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "LX1727",
+      "operating_note": null,
+      "origin_airport": "FCO",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-10-06T09:35:00",
+      "arrival_local": "2027-10-06T11:15:00",
+      "departure_timezone": "Europe/Rome",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 100
+    },
+    {
+      "id": "s_2804f29a1f0307e5c7ba",
+      "quote_id": "q_ae01b2397ed6b5bc3b31",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "LX188",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "PVG",
+      "departure_local": "2027-10-06T12:55:00",
+      "arrival_local": "2027-10-07T06:30:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 695
+    },
+    {
+      "id": "s_86813fb26b1cea8d7712",
+      "quote_id": "q_02d2c23fc101e8201ae0",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "CA1510",
+      "operating_note": null,
+      "origin_airport": "SHA",
+      "destination_airport": "PEK",
+      "departure_local": "2027-10-02T21:30:00",
+      "arrival_local": null,
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_e16805f70f0eb5bb1f89",
+      "quote_id": "q_02d2c23fc101e8201ae0",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "CA907",
+      "operating_note": null,
+      "origin_airport": "PEK",
+      "destination_airport": "MAD",
+      "departure_local": null,
+      "arrival_local": "2027-10-03T08:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Madrid",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_0d38c511615f367e1d87",
+      "quote_id": "q_02d2c23fc101e8201ae0",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "LH1119",
+      "operating_note": null,
+      "origin_airport": "MAD",
+      "destination_airport": "FRA",
+      "departure_local": "2027-10-08T08:25:00",
+      "arrival_local": null,
+      "departure_timezone": "Europe/Madrid",
+      "arrival_timezone": "Europe/Berlin",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_b92b993f8db726ef9790",
+      "quote_id": "q_02d2c23fc101e8201ae0",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "LH728",
+      "operating_note": null,
+      "origin_airport": "FRA",
+      "destination_airport": null,
+      "departure_local": null,
+      "arrival_local": "2027-10-09T09:15:00",
+      "departure_timezone": "Europe/Berlin",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_1cf69d753dbc26b0967f",
+      "quote_id": "q_6bf37fcb47f1a9a21faa",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "ZH1989",
+      "operating_note": "国航执飞",
+      "origin_airport": null,
+      "destination_airport": "BCN",
+      "departure_local": "2027-10-02T00:40:00",
+      "arrival_local": "2027-10-02T07:55:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Madrid",
+      "duration_minutes": 795
+    },
+    {
+      "id": "s_cf49f48dff620d92b75a",
+      "quote_id": "q_6bf37fcb47f1a9a21faa",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "ZH1990",
+      "operating_note": "国航执飞",
+      "origin_airport": "BCN",
+      "destination_airport": null,
+      "departure_local": "2027-10-08T12:10:00",
+      "arrival_local": "2027-10-09T06:45:00",
+      "departure_timezone": "Europe/Madrid",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 755
+    },
+    {
+      "id": "s_087d7b508ec6f52afe6c",
+      "quote_id": "q_1a338aa2a26b1c7ac7f6",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "VN525",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "SGN",
+      "departure_local": "2027-09-30T15:10:00",
+      "arrival_local": null,
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Asia/Ho_Chi_Minh",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_b0ff8d7e3c8c127b95d4",
+      "quote_id": "q_1a338aa2a26b1c7ac7f6",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "VN011",
+      "operating_note": null,
+      "origin_airport": "SGN",
+      "destination_airport": "CDG",
+      "departure_local": null,
+      "arrival_local": "2027-10-01T06:45:00",
+      "departure_timezone": "Asia/Ho_Chi_Minh",
+      "arrival_timezone": "Europe/Paris",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_36e54f5207297f5853b4",
+      "quote_id": "q_1a338aa2a26b1c7ac7f6",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "VN018",
+      "operating_note": null,
+      "origin_airport": "CDG",
+      "destination_airport": "HAN",
+      "departure_local": "2027-10-07T14:00:00",
+      "arrival_local": null,
+      "departure_timezone": "Europe/Paris",
+      "arrival_timezone": "Asia/Ho_Chi_Minh",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_34dda0e986ee3e2cd8be",
+      "quote_id": "q_1a338aa2a26b1c7ac7f6",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "VN532",
+      "operating_note": null,
+      "origin_airport": "HAN",
+      "destination_airport": "PVG",
+      "departure_local": null,
+      "arrival_local": "2027-10-08T14:25:00",
+      "departure_timezone": "Asia/Ho_Chi_Minh",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_8825b500ab242f4d4406",
+      "quote_id": "q_3e92eba04ab09611cd23",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "VN533",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "HAN",
+      "departure_local": "2027-10-01T15:50:00",
+      "arrival_local": null,
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Asia/Ho_Chi_Minh",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_9574d95961d33afb275f",
+      "quote_id": "q_3e92eba04ab09611cd23",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "VN019",
+      "operating_note": null,
+      "origin_airport": "HAN",
+      "destination_airport": "CDG",
+      "departure_local": null,
+      "arrival_local": "2027-10-02T07:00:00",
+      "departure_timezone": "Asia/Ho_Chi_Minh",
+      "arrival_timezone": "Europe/Paris",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_dea5f6e4e3efab574be7",
+      "quote_id": "q_3e92eba04ab09611cd23",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "VN018",
+      "operating_note": null,
+      "origin_airport": "CDG",
+      "destination_airport": "HAN",
+      "departure_local": "2027-10-07T14:00:00",
+      "arrival_local": null,
+      "departure_timezone": "Europe/Paris",
+      "arrival_timezone": "Asia/Ho_Chi_Minh",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_7a53cc466e3b952b6373",
+      "quote_id": "q_3e92eba04ab09611cd23",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "VN532",
+      "operating_note": null,
+      "origin_airport": "HAN",
+      "destination_airport": "PVG",
+      "departure_local": null,
+      "arrival_local": "2027-10-08T14:25:00",
+      "departure_timezone": "Asia/Ho_Chi_Minh",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_7a3ec2de692b309aea38",
+      "quote_id": "q_711b267384ff159b302c",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "JL876",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "NRT",
+      "departure_local": "2027-04-30T14:05:00",
+      "arrival_local": "2027-04-30T18:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Asia/Tokyo",
+      "duration_minutes": 175
+    },
+    {
+      "id": "s_733bab06dfee97add464",
+      "quote_id": "q_711b267384ff159b302c",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "JL089",
+      "operating_note": null,
+      "origin_airport": "HND",
+      "destination_airport": "PVG",
+      "departure_local": "2027-05-05T17:20:00",
+      "arrival_local": "2027-05-05T19:45:00",
+      "departure_timezone": "Asia/Tokyo",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 205
+    },
+    {
+      "id": "s_5265c18fe58cf37cb52e",
+      "quote_id": "q_c7601521d5c8e4848686",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "JL080",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "HND",
+      "departure_local": "2027-05-01T09:05:00",
+      "arrival_local": "2027-05-01T13:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Asia/Tokyo",
+      "duration_minutes": 175
+    },
+    {
+      "id": "s_670df9d1a23b0eb93ac7",
+      "quote_id": "q_c7601521d5c8e4848686",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "JL089",
+      "operating_note": null,
+      "origin_airport": "HND",
+      "destination_airport": "PVG",
+      "departure_local": "2027-05-05T17:20:00",
+      "arrival_local": "2027-05-05T19:45:00",
+      "departure_timezone": "Asia/Tokyo",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 205
+    },
+    {
+      "id": "s_0bcbfeaa656ce3b1b347",
+      "quote_id": "q_9663ab62dacf23a2d104",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "TK281",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "IST",
+      "departure_local": "2027-04-30T07:45:00",
+      "arrival_local": "2027-04-30T14:45:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Istanbul",
+      "duration_minutes": 720
+    },
+    {
+      "id": "s_c69392040da85a37bde1",
+      "quote_id": "q_9663ab62dacf23a2d104",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "TK026",
+      "operating_note": null,
+      "origin_airport": "IST",
+      "destination_airport": "PVG",
+      "departure_local": "2027-05-06T01:30:00",
+      "arrival_local": "2027-05-06T16:45:00",
+      "departure_timezone": "Europe/Istanbul",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 615
+    },
+    {
+      "id": "s_45c1140b2b72b5a5a417",
+      "quote_id": "q_96cc8251c7740304f372",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "CZ3504",
+      "operating_note": null,
+      "origin_airport": "SHA",
+      "destination_airport": "CAN",
+      "departure_local": "2027-04-30T20:00:00",
+      "arrival_local": "2027-04-30T22:30:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 150
+    },
+    {
+      "id": "s_31c3bbfb75aaaae564d3",
+      "quote_id": "q_96cc8251c7740304f372",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "CZ8091",
+      "operating_note": null,
+      "origin_airport": "CAN",
+      "destination_airport": "SYD",
+      "departure_local": "2027-05-01T00:55:00",
+      "arrival_local": "2027-05-01T12:25:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Australia/Sydney",
+      "duration_minutes": 570
+    },
+    {
+      "id": "s_d0d07dad598bf46e618f",
+      "quote_id": "q_96cc8251c7740304f372",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "CZ326",
+      "operating_note": null,
+      "origin_airport": "SYD",
+      "destination_airport": "CAN",
+      "departure_local": "2027-05-06T10:05:00",
+      "arrival_local": "2027-05-06T18:10:00",
+      "departure_timezone": "Australia/Sydney",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 605
+    },
+    {
+      "id": "s_c8375c9b4473cb56745c",
+      "quote_id": "q_96cc8251c7740304f372",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "CZ3595",
+      "operating_note": null,
+      "origin_airport": "CAN",
+      "destination_airport": "SHA",
+      "departure_local": "2027-05-06T20:00:00",
+      "arrival_local": "2027-05-06T22:20:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 140
+    },
+    {
+      "id": "s_f85dcab0ba0bdaab4e76",
+      "quote_id": "q_0e14576d875d3a1ea79f",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "LX189",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-09-29T08:30:00",
+      "arrival_local": "2027-09-29T16:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 810
+    },
+    {
+      "id": "s_d02549e4ac2ea416ea1b",
+      "quote_id": "q_0e14576d875d3a1ea79f",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "LX1732",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "FCO",
+      "departure_local": "2027-09-29T17:50:00",
+      "arrival_local": "2027-09-29T19:25:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Europe/Rome",
+      "duration_minutes": 95
+    },
+    {
+      "id": "s_d5751a9f9358c251a404",
+      "quote_id": "q_0e14576d875d3a1ea79f",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "LH1855",
+      "operating_note": "多洛米蒂航空执飞",
+      "origin_airport": "LIN",
+      "destination_airport": "MUC",
+      "departure_local": "2027-10-06T18:25:00",
+      "arrival_local": null,
+      "departure_timezone": "Europe/Rome",
+      "arrival_timezone": "Europe/Berlin",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_23a298e2b6d0787ed2a7",
+      "quote_id": "q_0e14576d875d3a1ea79f",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "LH726",
+      "operating_note": null,
+      "origin_airport": "MUC",
+      "destination_airport": "PVG",
+      "departure_local": null,
+      "arrival_local": "2027-10-07T15:50:00",
+      "departure_timezone": "Europe/Berlin",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": null
+    },
+    {
+      "id": "s_1d023029b263fff73983",
+      "quote_id": "q_f7157957001a35465740",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "LX189",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-09-29T08:30:00",
+      "arrival_local": "2027-09-29T16:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 810
+    },
+    {
+      "id": "s_51bf1a98fd3c4db8a748",
+      "quote_id": "q_f7157957001a35465740",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "LX1732",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "FCO",
+      "departure_local": "2027-09-29T17:50:00",
+      "arrival_local": "2027-09-29T19:25:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Europe/Rome",
+      "duration_minutes": 95
+    },
+    {
+      "id": "s_8855a72fcc177ec64953",
+      "quote_id": "q_f7157957001a35465740",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "LX1727",
+      "operating_note": null,
+      "origin_airport": "FCO",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-10-06T09:35:00",
+      "arrival_local": "2027-10-06T11:15:00",
+      "departure_timezone": "Europe/Rome",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 100
+    },
+    {
+      "id": "s_73a4d88b30a7ba76e00c",
+      "quote_id": "q_f7157957001a35465740",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "LX188",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "PVG",
+      "departure_local": "2027-10-06T12:55:00",
+      "arrival_local": "2027-10-07T06:30:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 695
+    },
+    {
+      "id": "s_a73700cdda192c4bf1a3",
+      "quote_id": "q_9df09674c4990cfeb5a7",
+      "leg": 0,
+      "position": 0,
+      "flight_number": "LX189",
+      "operating_note": null,
+      "origin_airport": "PVG",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-09-29T08:30:00",
+      "arrival_local": "2027-09-29T16:00:00",
+      "departure_timezone": "Asia/Shanghai",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 810
+    },
+    {
+      "id": "s_57472147acd052331ecf",
+      "quote_id": "q_9df09674c4990cfeb5a7",
+      "leg": 0,
+      "position": 1,
+      "flight_number": "LX1732",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "FCO",
+      "departure_local": "2027-09-29T17:50:00",
+      "arrival_local": "2027-09-29T19:25:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Europe/Rome",
+      "duration_minutes": 95
+    },
+    {
+      "id": "s_93b63c847931ff5ec456",
+      "quote_id": "q_9df09674c4990cfeb5a7",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "LX1727",
+      "operating_note": null,
+      "origin_airport": "FCO",
+      "destination_airport": "ZRH",
+      "departure_local": "2027-10-06T09:35:00",
+      "arrival_local": "2027-10-06T11:15:00",
+      "departure_timezone": "Europe/Rome",
+      "arrival_timezone": "Europe/Zurich",
+      "duration_minutes": 100
+    },
+    {
+      "id": "s_842e582e54e4e171f7f0",
+      "quote_id": "q_9df09674c4990cfeb5a7",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "LX188",
+      "operating_note": null,
+      "origin_airport": "ZRH",
+      "destination_airport": "PVG",
+      "departure_local": "2027-10-06T12:55:00",
+      "arrival_local": "2027-10-07T06:30:00",
+      "departure_timezone": "Europe/Zurich",
+      "arrival_timezone": "Asia/Shanghai",
+      "duration_minutes": 695
+    },
+    {
+      "id": "s_3cc64613604c76761d80",
+      "quote_id": "q_8f9bdc5d8b81024a4273",
+      "leg": 1,
+      "position": 0,
+      "flight_number": "LX3433",
+      "operating_note": "AZ572执飞",
+      "origin_airport": null,
+      "destination_airport": null,
+      "departure_local": null,
+      "arrival_local": null,
+      "departure_timezone": null,
+      "arrival_timezone": null,
+      "duration_minutes": null
+    },
+    {
+      "id": "s_a9973d568efeae9cdc57",
+      "quote_id": "q_8f9bdc5d8b81024a4273",
+      "leg": 1,
+      "position": 1,
+      "flight_number": "LX188",
+      "operating_note": null,
+      "origin_airport": null,
+      "destination_airport": null,
+      "departure_local": null,
+      "arrival_local": null,
+      "departure_timezone": null,
+      "arrival_timezone": null,
+      "duration_minutes": null
+    }
+  ],
+  "observations": [
+    {
+      "quote_id": "q_e1ff7f337b398ead7f16",
+      "batch_id": "manual-2026-10-15",
+      "run_id": "r_54f80e556f2e54081f87",
+      "checked": {
+        "start": "2026-10-15T06:25:11.204Z",
+        "end": "2026-10-15T06:25:11.204Z",
+        "precision": "millisecond"
+      },
+      "verification_checked": {
+        "start": "2026-10-15T06:40:35.503Z",
+        "end": "2026-10-15T06:40:35.503Z",
+        "precision": "millisecond"
+      },
+      "adult_fare_minor": 632300,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-15-google-and-seller",
+      "condition_fingerprint": "e1ff7f337b398ead7f16dd63e3b0ebb9c11a2b2a13a7bbb9e05a4368456d5556",
+      "id": "o_ecd7ec053c023826310f"
+    },
+    {
+      "quote_id": "q_7d179ceb018b9d5f64f7",
+      "batch_id": "manual-2026-10-15",
+      "run_id": "r_02ba1559d4c2022974fe",
+      "checked": {
+        "start": "2026-10-15T06:32:08.814Z",
+        "end": "2026-10-15T06:32:08.814Z",
+        "precision": "millisecond"
+      },
+      "verification_checked": {
+        "start": "2026-10-15T06:42:59.582Z",
+        "end": "2026-10-15T06:42:59.582Z",
+        "precision": "millisecond"
+      },
+      "adult_fare_minor": 659900,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-15-google-and-seller",
+      "condition_fingerprint": "7d179ceb018b9d5f64f705704a7f4a6933ac6fe5d28eeec6133693aa4e4d720f",
+      "id": "o_8777082636eddafe0041"
+    },
+    {
+      "quote_id": "q_ae01b2397ed6b5bc3b31",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_6471b1680b845a4636ba",
+      "checked": {
+        "start": "2026-10-16T08:49+08:00",
+        "end": "2026-10-16T08:49+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:49+08:00",
+        "end": "2026-10-16T08:49+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 640000,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "ae01b2397ed6b5bc3b312f86a8aec03aac83ade929f457212ed1360afffb96e4",
+      "id": "o_40cd75eef2bb1562dcd2"
+    },
+    {
+      "quote_id": "q_02d2c23fc101e8201ae0",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_1cd19b8d806686084b7b",
+      "checked": {
+        "start": "2026-10-16T08:50+08:00",
+        "end": "2026-10-16T08:50+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:50+08:00",
+        "end": "2026-10-16T08:50+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 673100,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "02d2c23fc101e8201ae0a5b533af180896f4202a57a84325dbc837a6e1915843",
+      "id": "o_03f438f5a2c61c456df6"
+    },
+    {
+      "quote_id": "q_6bf37fcb47f1a9a21faa",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_407df6bbfe001eb5fac7",
+      "checked": {
+        "start": "2026-10-16T08:51+08:00",
+        "end": "2026-10-16T08:51+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:51+08:00",
+        "end": "2026-10-16T08:51+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 816700,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "6bf37fcb47f1a9a21faae4a26fbf796bc21f680bfa6f2ad38c9eb7b790cad05b",
+      "id": "o_8431b1ea6bc0101c5aa8"
+    },
+    {
+      "quote_id": "q_1a338aa2a26b1c7ac7f6",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_05f14ca6aeeab188bbc5",
+      "checked": {
+        "start": "2026-10-16T08:53+08:00",
+        "end": "2026-10-16T08:53+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:53+08:00",
+        "end": "2026-10-16T08:53+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 756100,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "1a338aa2a26b1c7ac7f6990e162ab6520e8e3c2e220d6def502ae1f6bcd0c33d",
+      "id": "o_39b5c180fb48618891eb"
+    },
+    {
+      "quote_id": "q_3e92eba04ab09611cd23",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_b7e8f9230717d34947b7",
+      "checked": {
+        "start": "2026-10-16T09:00+08:00",
+        "end": "2026-10-16T09:00+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T09:00+08:00",
+        "end": "2026-10-16T09:00+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 753400,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "3e92eba04ab09611cd23ee580ab3205ba3bd34d1fc6f3a00bf3c74709db052a5",
+      "id": "o_c02c1afe057bbec3818a"
+    },
+    {
+      "quote_id": "q_711b267384ff159b302c",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_20ea907c4af2f29120d7",
+      "checked": {
+        "start": "2026-10-16T08:51+08:00",
+        "end": "2026-10-16T08:51+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:51+08:00",
+        "end": "2026-10-16T08:51+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 460800,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "711b267384ff159b302cff11abf31b2519dd8532f4eb90ca577b3e8a8b91a5ec",
+      "id": "o_eaf6743add98a828d675"
+    },
+    {
+      "quote_id": "q_c7601521d5c8e4848686",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_fc0e747698d570fc5196",
+      "checked": {
+        "start": "2026-10-16T08:54+08:00",
+        "end": "2026-10-16T08:54+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:54+08:00",
+        "end": "2026-10-16T08:54+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 511100,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "c7601521d5c8e484868606d56b7fcae7684373329396409b6eba5f3edfcedf2c",
+      "id": "o_a9bfe3dca354a1c5c9ea"
+    },
+    {
+      "quote_id": "q_9663ab62dacf23a2d104",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_557ada978f05f1eec78e",
+      "checked": {
+        "start": "2026-10-16T08:55+08:00",
+        "end": "2026-10-16T08:55+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:55+08:00",
+        "end": "2026-10-16T08:55+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 643600,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "9663ab62dacf23a2d1048744ea2ffaf7b2d8ed66c7bf802952f870169e78e744",
+      "id": "o_cd0b3c3c3563ae6942ae"
+    },
+    {
+      "quote_id": "q_96cc8251c7740304f372",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_c3b150e31c0023f60b3b",
+      "checked": {
+        "start": "2026-10-16T08:57+08:00",
+        "end": "2026-10-16T08:57+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:57+08:00",
+        "end": "2026-10-16T08:57+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 537900,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "96cc8251c7740304f372dc55351ae3a3300ad52871afb740c2a74916444483d3",
+      "id": "o_9704b882da95884addb6"
+    },
+    {
+      "quote_id": "q_0e14576d875d3a1ea79f",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_e7f9a683f9c587145b0a",
+      "checked": {
+        "start": "2026-10-16T08:57+08:00",
+        "end": "2026-10-16T08:57+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:57+08:00",
+        "end": "2026-10-16T08:57+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 795600,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-trip",
+      "condition_fingerprint": "0e14576d875d3a1ea79f84413870de382b488844fcc3e74d9d6247182af85227",
+      "id": "o_1b17bc5fc5ed04fc1b7a"
+    },
+    {
+      "quote_id": "q_f7157957001a35465740",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_50477a60ed29968e3905",
+      "checked": {
+        "start": "2026-10-16T04:57Z",
+        "end": "2026-10-16T04:57Z",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T04:57Z",
+        "end": "2026-10-16T04:57Z",
+        "precision": "minute"
+      },
+      "adult_fare_minor": 646000,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-fliggy",
+      "condition_fingerprint": "f7157957001a354657407e4fe262b16bd3251535c7ffaf48afea84f9e2c918e6",
+      "id": "o_db43af8cfb3b7935a19b"
+    },
+    {
+      "quote_id": "q_9df09674c4990cfeb5a7",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_50debb9ecf61ce47d58b",
+      "checked": {
+        "start": "2026-10-16T04:37Z",
+        "end": "2026-10-16T04:44Z",
+        "precision": "minute_range"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T04:37Z",
+        "end": "2026-10-16T04:44Z",
+        "precision": "minute_range"
+      },
+      "adult_fare_minor": 659000,
+      "card_amount_minor": null,
+      "currency": "CNY",
+      "page_total_minor": 659000,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-ly",
+      "condition_fingerprint": "9df09674c4990cfeb5a7e0204c25598acbd3d7fc5ee04f61ee2b56a68fb60ccb",
+      "id": "o_c961a794bb5dbf041c30"
+    },
+    {
+      "quote_id": "q_8f9bdc5d8b81024a4273",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_f7c20c60f2b34e0dffe0",
+      "checked": {
+        "start": "2026-10-16T08:47+08:00",
+        "end": "2026-10-16T08:47+08:00",
+        "precision": "minute"
+      },
+      "verification_checked": {
+        "start": "2026-10-16T08:47+08:00",
+        "end": "2026-10-16T08:47+08:00",
+        "precision": "minute"
+      },
+      "adult_fare_minor": null,
+      "card_amount_minor": 643400,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-ctrip",
+      "condition_fingerprint": "8f9bdc5d8b81024a42732613db8c6a8aa3faa88a6a5c35a775a1b51d52fdc430",
+      "id": "o_157aa026ee957c63b750"
+    },
+    {
+      "quote_id": "q_e07b270cdb097d0dd0ad",
+      "batch_id": "manual-2026-10-16",
+      "run_id": "r_f2bd68815bdfc80bd738",
+      "checked": {
+        "start": "2026-10-16",
+        "end": "2026-10-16",
+        "precision": "day"
+      },
+      "verification_checked": {
+        "start": "2026-10-16",
+        "end": "2026-10-16",
+        "precision": "day"
+      },
+      "adult_fare_minor": null,
+      "card_amount_minor": 793100,
+      "currency": "CNY",
+      "page_total_minor": null,
+      "final_payable_minor": null,
+      "final_payable_verified": false,
+      "evidence_ref": "manual-report-2026-10-16-qunar",
+      "condition_fingerprint": "e07b270cdb097d0dd0ad2f78d75ff93e75cd4269e1b706f09fbba07e15e94c15",
+      "id": "o_66b3554b2f0fdab4ddf3"
+    }
+  ],
+  "runs": [
+    {
+      "id": "r_54f80e556f2e54081f87",
+      "batch_id": "manual-2026-10-15",
+      "key": "paris-roundtrip-20270430",
+      "source_id": "google",
+      "holiday": "may",
+      "entry_city": "paris",
+      "exit_city": "paris",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-05",
+      "status": "success",
+      "note": "历史人工快照"
+    },
+    {
+      "id": "r_02ba1559d4c2022974fe",
+      "batch_id": "manual-2026-10-15",
+      "key": "paris-rome-20270430",
+      "source_id": "google",
+      "holiday": "may",
+      "entry_city": "paris",
+      "exit_city": "rome",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-05",
+      "status": "success",
+      "note": "历史人工快照"
+    },
+    {
+      "id": "r_6471b1680b845a4636ba",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-rome",
+      "source_id": "trip",
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_1cd19b8d806686084b7b",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-madrid",
+      "source_id": "trip",
+      "holiday": "national",
+      "entry_city": "madrid",
+      "exit_city": "madrid",
+      "out_date": "2027-10-02",
+      "return_date": "2027-10-08",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_407df6bbfe001eb5fac7",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-barcelona",
+      "source_id": "trip",
+      "holiday": "national",
+      "entry_city": "barcelona",
+      "exit_city": "barcelona",
+      "out_date": "2027-10-02",
+      "return_date": "2027-10-08",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_05f14ca6aeeab188bbc5",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-paris-0930",
+      "source_id": "trip",
+      "holiday": "national",
+      "entry_city": "paris",
+      "exit_city": "paris",
+      "out_date": "2027-09-30",
+      "return_date": "2027-10-07",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_b7e8f9230717d34947b7",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-paris-1001",
+      "source_id": "trip",
+      "holiday": "national",
+      "entry_city": "paris",
+      "exit_city": "paris",
+      "out_date": "2027-10-01",
+      "return_date": "2027-10-07",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_20ea907c4af2f29120d7",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-tokyo-0430",
+      "source_id": "trip",
+      "holiday": "may",
+      "entry_city": "tokyo",
+      "exit_city": "tokyo",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-05",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_fc0e747698d570fc5196",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-tokyo-0501",
+      "source_id": "trip",
+      "holiday": "may",
+      "entry_city": "tokyo",
+      "exit_city": "tokyo",
+      "out_date": "2027-05-01",
+      "return_date": "2027-05-05",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_557ada978f05f1eec78e",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-istanbul",
+      "source_id": "trip",
+      "holiday": "may",
+      "entry_city": "istanbul",
+      "exit_city": "istanbul",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-06",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_c3b150e31c0023f60b3b",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-sydney",
+      "source_id": "trip",
+      "holiday": "may",
+      "entry_city": "sydney",
+      "exit_city": "sydney",
+      "out_date": "2027-04-30",
+      "return_date": "2027-05-06",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_e7f9a683f9c587145b0a",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-rome-milan",
+      "source_id": "trip",
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "milan",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_50477a60ed29968e3905",
+      "batch_id": "manual-2026-10-16",
+      "key": "fliggy-rome",
+      "source_id": "fliggy",
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_50debb9ecf61ce47d58b",
+      "batch_id": "manual-2026-10-16",
+      "key": "ly-rome",
+      "source_id": "ly",
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "status": "success",
+      "note": "人工旅客页核验；最终应付未核"
+    },
+    {
+      "id": "r_f7c20c60f2b34e0dffe0",
+      "batch_id": "manual-2026-10-16",
+      "key": "ctrip-rome",
+      "source_id": "ctrip",
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "status": "partial",
+      "note": "报价卡，未达到推荐核验要求"
+    },
+    {
+      "id": "r_f2bd68815bdfc80bd738",
+      "batch_id": "manual-2026-10-16",
+      "key": "qunar-rome",
+      "source_id": "qunar",
+      "holiday": "national",
+      "entry_city": "rome",
+      "exit_city": "rome",
+      "out_date": "2027-09-29",
+      "return_date": "2027-10-06",
+      "status": "partial",
+      "note": "报价卡，未达到推荐核验要求"
+    },
+    {
+      "id": "r_79780e9b30c0284fc21e",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-milan-long",
+      "source_id": "trip",
+      "holiday": "national",
+      "entry_city": "milan",
+      "exit_city": "milan",
+      "out_date": "2027-09-30",
+      "return_date": "2027-10-07",
+      "status": "excluded",
+      "note": "搜索低价去程30h05，过长中转剔除；未记录价格，不填0"
+    },
+    {
+      "id": "r_dea595c2a3f3538e2e9d",
+      "batch_id": "manual-2026-10-16",
+      "key": "trip-milan-india",
+      "source_id": "trip",
+      "holiday": "national",
+      "entry_city": "milan",
+      "exit_city": "milan",
+      "out_date": "2027-10-02",
+      "return_date": "2027-10-08",
+      "status": "incomplete",
+      "note": "返程印度中转条件未核，未到旅客页；未记录价格"
+    }
+  ],
+  "favorite_aliases": {
+    "paris-roundtrip-20270430": "q_e1ff7f337b398ead7f16",
+    "paris-rome-20270430": "q_7d179ceb018b9d5f64f7"
+  }
+}
